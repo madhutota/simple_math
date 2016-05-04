@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private String TAG = MainActivity.class.getSimpleName();
 
-    private int a,b,c,d ,sum,mul,sub;
+    private int a,b,c,d;
     private EditText firstNumber,secondNumber,thirdNumber,fourthNumber;
     private TextView lblResult;
     private Button btnAdd,btnMul,btnSub;
