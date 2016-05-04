@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        // bug fixed
         switch (v.getId()){
             case R.id.btn_sum:
                 doMath(1);
